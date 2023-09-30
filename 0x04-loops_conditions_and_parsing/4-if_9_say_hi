@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#This script prints "Best School" 10 times but for the 9Th iteration it prints "Best School" and then "Hi" on the new line
+
+counter=0
+
+while ((counter < 10))
+do
+	echo "Best School"
+	((counter++))
+	if [ $counter -eq 9 ]
+	then
+		echo "Hi"
+	fi
+done
