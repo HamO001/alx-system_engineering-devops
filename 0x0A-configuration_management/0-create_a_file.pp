@@ -1,0 +1,9 @@
+# This code creates a file named njenga in the /tmp directory
+
+file  { '/tmp/njenga':
+  ensure  =>  file,
+  mode    =>  '0744',
+  owner   =>  'www-data',
+  group   =>  'www-data',
+  content =>  'I love Puppet',
+}
