@@ -1,6 +1,6 @@
 # This code creates a file named njenga in the /tmp directory
 
-file { '/tmp/njenga':
+file { '/tmp/school':
   ensure  => file,
   mode    => '0744',
   owner   => 'www-data',
